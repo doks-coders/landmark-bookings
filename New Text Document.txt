@@ -1,0 +1,40 @@
+…or create a new repository on the command line
+echo "# Daventy-Agency-Homepage" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/doks-coders/Daventy-Agency-Homepage.git
+git push -u origin main
+…or push an existing repository from the command line
+git remote add origin https://github.com/doks-coders/Daventy-Agency-Homepage.git
+git branch -M main
+git push -u origin main
+
+
+
+
+
+…or create a new repository on the command line
+echo "# landmark-bookings" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/doks-coders/landmark-bookings.git
+git push -u origin main'
+
+
+for extra commands
+git config http.postBuffer 524288000
+
+Create a new branch:
+git checkout -b feature_branch_name
+
+Edit, add and commit your files.
+
+Push your branch to the remote repository:
+git push -u origin feature_branch_name
+
+
+//git push -u origin master
